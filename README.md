@@ -24,14 +24,14 @@ Things you may want to cover:
 * ...
 
 
-#Portfolio Application 
+# Portfolio Application 
 
 >This is a Ruby on Rails 5 application that allows users to create their own portfolios.
 
-###Features 
+### Features 
 
--Real time chat engine for comments 
--Blog
--Portfolio
--Drag and drop interface
+- Real time chat engine for comments 
+- Blog
+- Portfolio
+- Drag and drop interface
 
