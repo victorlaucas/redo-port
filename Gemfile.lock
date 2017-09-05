@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/victorlaucas/DevGuyViewTool
+  revision: e05775138b35bec9a45db181da058f1ec2a369d8
+  specs:
+    DevGuyViewTool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -191,6 +197,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  DevGuyViewTool!
   bootstrap (~> 4.0.0.alpha6)
   byebug
   coffee-rails (~> 4.2)
