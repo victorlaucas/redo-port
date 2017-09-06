@@ -55,4 +55,4 @@ gem 'friendly_id', '~> 5.2', '>= 5.2.1'
 gem 'devise', '~> 4.3'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
-gem 'DevGuyViewTool', git: "https://github.com/victorlaucas/DevGuyViewTool"
+gem 'DevGuyViewTool', '~> 0.1.1'
