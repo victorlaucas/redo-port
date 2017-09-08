@@ -8,11 +8,7 @@
       <div class="col-sm-4 py-4">
         <h4 class="text-black">Explore</h4>
         <ul class="list-unstyled">
-          <li><%= link_to "Home", root_path, class: 'awesome-link-colors'%></li>
-          <li><%= link_to "About", about_me_path, class: 'awesome-link-colors'%></li>
-          <li><%= link_to "Contact", contact_path, class: 'awesome-link-colors'%></li>
-          <li><%= link_to "Blogs", blogs_path, class: 'awesome-link-colors'%></li>
-          <li><%= link_to "Portfolios", portfolios_path, class: 'awesome-link-colors'%></li>
+        <%= nav_helper 'awesome-link-colors', 'li' %>
           <li><%=login_helper 'awesome-link-colors'%></li>
         </ul>
       </div>
