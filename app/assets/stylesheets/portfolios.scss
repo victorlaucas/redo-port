@@ -3,6 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 @import "bootstrap";
+@import "font-awesome";
 body {
   min-height: 75rem; /* Can be removed; just added for demo purposes */
 }
@@ -60,4 +61,16 @@ footer {
 
 footer p {
   margin-bottom: .25rem;
+}
+
+.custom-toggler {
+  border-color: #007bff;
+} 
+
+#navbarHeader {
+  background-color: #e0e0e0;
+}
+
+.awesome-link-colors {
+  color: #444649;
 }
