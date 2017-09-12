@@ -65,7 +65,7 @@ footer p {
 }
 
 .custom-toggler {
-  border-color: #007bff;
+ // border-color: #007bff;
 } 
 
 #navbarHeader {
@@ -76,6 +76,10 @@ footer p {
   color: #444649;
 }
 
-.portfolio_form {
-  padding: 20px;
+.portfolio-container {
+  padding-top: 30px;
+}
+
+.bars {
+  font-size: 30px;
 }
