@@ -2,11 +2,11 @@ module DefaultPageContent
   extend ActiveSupport::Concern
 
   included do
-    before_action :set_title_defaults
+    before_action :set_page_defaults
   end
 
-  def set_title_defaults
-    @page_title = "Portfolio Project | Victor's Portfolio"
-    @seo_keywords = "Victor Laucas Portfolio"
+  def set_page_defaults
+    @page_title = "Devcamp Portfolio | My Portfolio Website"
+    @seo_keywords = "Victor Laucas portfolio"
   end
 end
