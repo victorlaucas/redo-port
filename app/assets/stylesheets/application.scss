@@ -228,4 +228,20 @@ body {
   font-size: 1.5em;
 }
 
+.app-card-container {
+  color: black;
+  text-align: left;
+}
+
+.app-card-container > .card {
+  padding: 40px;
+}
+
+.profile-img {
+  border: 1px solid black;
+}
+
+.app-card-container a {
+  color: blue;
+}
 
