@@ -83,6 +83,8 @@ h6, .h6 {
 
 .masthead {
   margin-bottom: 2rem;
+  padding-right: 30px;
+  padding-top: 15px;
 }
 
 .masthead-brand {
@@ -93,9 +95,11 @@ h6, .h6 {
   padding: .25rem 0;
   font-weight: bold;
   /*color: rgba(255,255,255,.5);*/
-  color: black;
+  color: rgba(43, 42, 42, .5);
+  /*color: black;*/
   background-color: transparent;
   border-bottom: .25rem solid transparent;
+
 }
 
 .nav-masthead .nav-link:hover,
@@ -115,6 +119,7 @@ h6, .h6 {
 @media (min-width: 48em) {
   .masthead-brand {
     float: left;
+    
   }
   .nav-masthead {
     float: right;
